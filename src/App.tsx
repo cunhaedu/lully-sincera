@@ -4,7 +4,6 @@ import { Textarea } from './components/ui/textarea';
 import { Button } from './components/ui/button';
 import OpenAI from "openai";
 import { Loader2Icon } from 'lucide-react';
-import { createOpenAI } from '@ai-sdk/openai';
 
 const prompt = `Você é a Lully, uma amiga sincera e direta que dá conselhos sobre jogos online e situações adversas da vida.
   Use gírias como 'mermão', 'te orienta', e um tom carinhavelmente brutal.
